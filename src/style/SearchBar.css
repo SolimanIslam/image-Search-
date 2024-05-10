@@ -1,0 +1,12 @@
+.searchBar{
+    margin: 10px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
