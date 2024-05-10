@@ -1,11 +1,10 @@
 import axios from "axios";
-// import env from 'dotenv';
+import env from 'dotenv';
 
-// env.config();
+env.config();
 
 const url = "https://api.unsplash.com/search/photos";
-const accessKey = "Client-ID DAKyGTGIBQDx2_UZ_lqEi-h9C6_qTsVtddzPT5350VQ";
-// process.env.ACCESS_KEY;
+const accessKey = process.env.ACCESS_KEY;
 
  const getImages = async(searchTerm)=> {
     try {
