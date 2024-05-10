@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Image Search App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple image search app built with React.js that allows users to search for images and display them. It fetches images from Unsplash using their API and demonstrates handling text inputs and form submission, communication of data between components, and making HTTP requests with Axios.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Search for images by entering a search term and pressing Enter.
+- Display the images corresponding to the search term.
+- Communicate data between parent and child components and between siblings using the parent as a common component.
+- Make HTTP requests to the Unsplash API using Axios.
+- Use the dotenv package to store the Unsplash API access key securely.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React.js
+- Axios
+- dotenv (for storing API access key)
+- CSS (for styling)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SolimanIslam/image-Search-.git
+   
+2. Navigate to the project directory:
+  cd image-search-app
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+3. Install dependencies:
+  npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Create a .env file in the root directory and add your Unsplash API access key:
+  ACCESS_KEY=your_access_key_here
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. Start the development server:
+  npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+6. Open http://localhost:3000 in your browser to view the app.
 
-### `npm run eject`
+## Usage
+Enter a search term in the input field.
+Press Enter to fetch and display images related to the search term.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+https://github.com/SolimanIslam/image-Search-/assets/136899518/bce136fb-5ba3-4abc-a413-d439c0567971
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
